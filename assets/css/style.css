@@ -1,3 +1,35 @@
+/* -------------------------------------------------- Common css codes */
+.blue-section {
+    background-color: var(--bgBlue);
+}
+
+.purple-section {
+    background-color: var(--bgPurple);
+}
+
+/* -------------------------------------------------- Root Variables*/
+:root {
+    --darkgrey: #545454;
+    /* color: var(--darkgrey); */
+    --bgWhite: white;
+    /* color: var(--bgWhite); */
+    --White: white;
+    /* color: var(--White); */
+    --Black: #333;
+    /* color: var(--Black); */
+    --bgPurple: #1C124D;
+    /* color: var(--bgPurple); */
+    --bgBlue: #009FDA;
+    /* color: var(--bgBlue); */
+    --blue: #009FDA;
+    /* color: var(--blue); */
+    --purple: #1C124D;
+    /* color: var(--purple); */
+    --orange: #E15500;
+    /* color: var(--orange); */
+
+}
+
 body,
 html {
     height: 100%;
@@ -51,7 +83,7 @@ ul {
 
 .social-networks i {
     font-size: 150%;
-    color: var(--Black);
+    color: var(--purple);
     padding-right: 3%;
     padding-left: 3%;
 }
@@ -61,18 +93,21 @@ ul {
 }
 
 .social-networks i:hover {
-    color: var(--green);
+    color: var(--orange);
 }
 
 .scroll-up-icon {
-    color: var(--green);
+    color: var(--purple);
+}
+
+.scroll-up-icon:hover {
+    color: var(--orange);
 }
 
 .scroll-up {
     font-size: 18px;
     padding-top: 3%;
     padding-bottom: 1%;
-    font-family: "Antonio", sans-serif;
     font-weight: 100;
 }
 

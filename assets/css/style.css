@@ -13,10 +13,10 @@
     /* color: var(--darkgrey); */
     --bgWhite: white;
     /* color: var(--bgWhite); */
-    --White: white;
-    /* color: var(--White); */
-    --Black: #333;
-    /* color: var(--Black); */
+    --white: white;
+    /* color: var(--white); */
+    --black: #333;
+    /* color: var(--black); */
     --bgPurple: #1C124D;
     /* color: var(--bgPurple); */
     --bgBlue: #009FDA;
@@ -52,7 +52,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: var(--white);
 }
 
 .hero-text button {
@@ -60,7 +60,7 @@ html {
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: black;
+    color: var(--black);
     background-color: #ddd;
     text-align: center;
     cursor: pointer;
@@ -68,7 +68,7 @@ html {
 
 .hero-text button:hover {
     background-color: #555;
-    color: white;
+    color: var(--white);
 }
 
 /* --------------------------------------------------Footer */

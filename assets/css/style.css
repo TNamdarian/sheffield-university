@@ -38,3 +38,45 @@ html {
     background-color: #555;
     color: white;
 }
+
+/* --------------------------------------------------Footer */
+
+ul {
+    padding-left: 0;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    color: var(--Black);
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.social-networks {
+    padding-top: 23px;
+}
+
+.social-networks i:hover {
+    color: var(--green);
+}
+
+.scroll-up-icon {
+    color: var(--green);
+}
+
+.scroll-up {
+    font-size: 18px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-family: "Antonio", sans-serif;
+    font-weight: 100;
+}
+
+.copyright {
+    color: var(--darkgrey);
+    font-size: small;
+}

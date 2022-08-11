@@ -143,6 +143,28 @@ hr {
     color: var(--white);
 }
 
+/* --------------------------------------------------Testimonials Section */
+#testimonials {
+    background-color: var(--blue);
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.card-image {
+    border-radius: 50%;
+    width: 10%;
+    position: relative;
+    bottom: 120px;
+    margin: 100px 0;
+}
+
+.card-text,
+.card-title {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
 /* -------------------------------------------------- Footer */
 ul {
     padding-left: 0;

@@ -7,6 +7,10 @@
     background-color: var(--bgPurple);
 }
 
+.white-section {
+    background-color: var(--bgWhite);
+}
+
 /* -------------------------------------------------- Root Variables*/
 :root {
     --darkgrey: #545454;
@@ -54,6 +58,10 @@ html {
     color: var(--white);
 }
 
+.hero-text h1 {
+    margin-bottom: 20px;
+}
+
 .btn-enquiry {
     border: none;
     outline: 0;
@@ -92,7 +100,7 @@ html {
     width: 300px;
     height: 300px;
     padding: 20px;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--orange);
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -107,15 +115,32 @@ html {
     font-size: 42px;
     font-weight: 900;
     margin-bottom: 0;
+    color: var(--blue);
+}
+
+.heading {
+    font-size: 42px;
+    font-weight: 900;
     color: var(--purple);
 }
 
 hr {
-    border: 3px solid var(--blue);
+    border: 3px solid var(--orange);
 }
 
 .reason {
     color: var(--purple);
+}
+
+/* -------------------------------------------------- Subject Section */
+.card-title {
+    color: var(--blue);
+    margin: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    color: var(--white);
 }
 
 /* -------------------------------------------------- Footer */

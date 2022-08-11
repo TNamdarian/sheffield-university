@@ -27,7 +27,6 @@
     /* color: var(--purple); */
     --orange: #E15500;
     /* color: var(--orange); */
-
 }
 
 body,
@@ -55,24 +54,71 @@ html {
     color: var(--white);
 }
 
-.hero-text button {
+.btn-enquiry {
     border: none;
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: var(--black);
-    background-color: #ddd;
+    color: var(--white);
+    background-color: var(--purple);
     text-align: center;
     cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
-.hero-text button:hover {
-    background-color: #555;
-    color: var(--white);
+.btn-enquiry:hover {
+    background-color: var(--orange);
+    color: var(--purple);
 }
 
-/* --------------------------------------------------Footer */
+/* -------------------------------------------------- About Section */
+.reasons {
+    margin-top: 100px;
+    margin-left: 0px;
+}
 
+.reason-title {
+    font-size: 1.5rem;
+}
+
+#center-about {
+    padding: 10px;
+    width: 33%;
+    margin-left: 50px;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    height: 100%;
+    border-radius: 50%;
+    background: url("../images/reason.jpg") no-repeat center center
+}
+
+.big-heading {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 0;
+    color: var(--purple);
+}
+
+hr {
+    border: 3px solid var(--blue);
+}
+
+.reason {
+    color: var(--purple);
+}
+
+/* -------------------------------------------------- Footer */
 ul {
     padding-left: 0;
 }
@@ -114,4 +160,23 @@ ul {
 .copyright {
     color: var(--darkgrey);
     font-size: small;
+}
+
+/* --------------------------------------------------Media Quaries  */
+@media screen and (max-width: 540px) {
+    .reasons {
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+
+    .copyright {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .big-heading {
+        font-size: 38px;
+        font-weight: 500;
+    }
 }

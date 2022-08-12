@@ -35,6 +35,7 @@
     /* color: var(--yellow); */
 }
 
+/* -------------------------------------------------- Body */
 body,
 html {
     height: 100%;
@@ -42,6 +43,27 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* -------------------------------------------------- Navbar Section */
+.navbar-btn,
+.nav-link {
+    color: var(--purple);
+}
+
+.nav-link {
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.nav-link:hover {
+    opacity: 1;
+    color: var(--orange);
+}
+
+.logo {
+    margin-right: 300px;
+}
+
+/* -------------------------------------------------- Hero Section */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpg");
     height: 100%;
@@ -74,7 +96,6 @@ html {
     text-align: center;
     cursor: pointer;
     margin-top: 20px;
-    font-weight: bold;
 }
 
 .btn-enquiry:hover {
@@ -138,7 +159,6 @@ hr {
 .card-title {
     color: var(--blue);
     margin: 20px;
-    font-weight: bold;
 }
 
 .card-text {
@@ -147,6 +167,14 @@ hr {
 
 #subject.card {
     margin-bottom: 40px;
+}
+
+.card.purple-section {
+    border-radius: 20px;
+}
+
+.yellow {
+    color: var(--yellow);
 }
 
 /* --------------------------------------------------Testimonials Section */
@@ -169,20 +197,10 @@ hr {
     background-color: var(--blue);
     margin-top: 30px;
     border: 0px solid var(--blue);
-
 }
 
 .card-title {
     color: var(--yellow);
-}
-
-#testimonials .card-text {
-    width: 80%;
-    margin-left: 110px;
-
-}
-
-.card-title {
     font-size: 30px;
     margin-top: 20px;
 }
@@ -218,6 +236,10 @@ hr {
 
 #testimonials .card-text {
     color: var(--purple);
+}
+
+.btn-enquiry-testimonial {
+    margin-bottom: 30px;
 }
 
 /* -------------------------------------------------- Footer */
@@ -260,8 +282,8 @@ ul {
 }
 
 .copyright {
-    color: var(--darkgrey);
     font-size: small;
+    margin-top: 40px;
 }
 
 /* --------------------------------------------------Media Quaries  */

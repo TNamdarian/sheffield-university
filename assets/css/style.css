@@ -31,6 +31,8 @@
     /* color: var(--purple); */
     --orange: #E15500;
     /* color: var(--orange); */
+    --yellow: #F9E300;
+    /* color: var(--yellow); */
 }
 
 body,
@@ -67,7 +69,7 @@ html {
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: var(--white);
+    color: var(--yellow);
     background-color: var(--purple);
     text-align: center;
     cursor: pointer;
@@ -76,7 +78,7 @@ html {
 }
 
 .btn-enquiry:hover {
-    background-color: var(--orange);
+    background-color: var(--yellow);
     color: var(--purple);
 }
 
@@ -96,7 +98,7 @@ html {
     margin-left: 50px;
 }
 
-#circle-container {
+#circle-container-about {
     width: 300px;
     height: 300px;
     padding: 20px;
@@ -125,7 +127,7 @@ html {
 }
 
 hr {
-    border: 3px solid var(--orange);
+    border: 1px solid var(--orange);
 }
 
 .reason {
@@ -143,6 +145,10 @@ hr {
     color: var(--white);
 }
 
+#subject.card {
+    margin-bottom: 40px;
+}
+
 /* --------------------------------------------------Testimonials Section */
 #testimonials {
     background-color: var(--blue);
@@ -152,17 +158,66 @@ hr {
 
 .card-image {
     border-radius: 50%;
-    width: 10%;
+    width: 150%;
     position: relative;
-    bottom: 120px;
-    margin: 100px 0;
+    bottom: 5px;
+    left: 500px;
+    margin-top: 20px;
 }
 
-.card-text,
+#testimonials .card {
+    background-color: var(--blue);
+    margin-top: 30px;
+    border: 0px solid var(--blue);
+
+}
+
 .card-title {
+    color: var(--yellow);
+}
+
+#testimonials .card-text {
+    width: 80%;
+    margin-left: 110px;
+
+}
+
+.card-title {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.card-text {
     font-size: 20px;
     line-height: 1.5;
     margin-top: 20px;
+}
+
+#circle-container-testimonials {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid var(--yellow);
+    border-radius: 50%;
+}
+
+#testimonials .quote-right {
+    margin-bottom: 30px;
+}
+
+.quote-right,
+.quote-left {
+    color: var(--orange);
+}
+
+#testimonials p {
+    color: var(--white);
+    font-size: 14px;
+    line-height: .5;
+}
+
+#testimonials .card-text {
+    color: var(--purple);
 }
 
 /* -------------------------------------------------- Footer */
@@ -175,7 +230,7 @@ ul {
 }
 
 .social-networks i {
-    font-size: 150%;
+    font-size: 200%;
     color: var(--purple);
     padding-right: 3%;
     padding-left: 3%;

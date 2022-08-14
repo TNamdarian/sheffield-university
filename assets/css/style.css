@@ -88,6 +88,7 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--white);
+    font-size: 20px;
 }
 
 .hero-text h1 {
@@ -100,19 +101,20 @@ html {
     display: inline-block;
     padding: 10px 25px;
     color: var(--purple);
-    background-color: var(--orange);
+    background-color: var(--yellow);
     text-align: center;
     cursor: pointer;
     margin-top: 20px;
 }
 
 .btn-enquiry:hover {
-    background-color: var(--yellow);
+    background-color: var(--orange);
     color: var(--purple);
 }
 
 .hashtag {
     color: var(--yellow);
+    font-size: 48px;
 }
 
 /* -------------------------------------------------- About Section */

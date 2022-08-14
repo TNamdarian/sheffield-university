@@ -44,7 +44,6 @@ html {
 }
 
 /* -------------------------------------------------- Navbar Section */
-.navbar-btn,
 .nav-link {
     color: var(--purple);
 }
@@ -59,8 +58,17 @@ html {
     color: var(--orange);
 }
 
-.logo {
-    margin-right: 300px;
+.navbar-toggler:focus {
+    box-shadow: unset;
+}
+
+/* To change the color of the navbar I used code from https://www.youtube.com/watch?v=45QSuJaHEss */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2828, 18, 77, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    border: 3px solid var(--purple);
 }
 
 /* -------------------------------------------------- Hero Section */
@@ -91,8 +99,8 @@ html {
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: var(--yellow);
-    background-color: var(--purple);
+    color: var(--purple);
+    background-color: var(--orange);
     text-align: center;
     cursor: pointer;
     margin-top: 20px;
@@ -103,14 +111,14 @@ html {
     color: var(--purple);
 }
 
+.hashtag {
+    color: var(--yellow);
+}
+
 /* -------------------------------------------------- About Section */
 .reasons {
     margin-top: 100px;
     margin-left: 0px;
-}
-
-.reason-title {
-    font-size: 1.5rem;
 }
 
 #center-about {
@@ -135,7 +143,7 @@ html {
 }
 
 .big-heading {
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 900;
     margin-bottom: 0;
     color: var(--blue);
@@ -153,59 +161,55 @@ hr {
 
 .reason {
     color: var(--purple);
+    margin-bottom: 40px;
 }
 
 /* -------------------------------------------------- Subject Section */
 .card-title {
     color: var(--blue);
     margin: 20px;
+    font-size: 30px;
 }
 
 .card-text {
-    color: var(--white);
+    color: var(--purple);
 }
 
 #subject.card {
     margin-bottom: 40px;
 }
 
-.card.purple-section {
+.card {
     border-radius: 20px;
+    border: var(--purple);
 }
 
-.yellow {
-    color: var(--yellow);
+
+#subject1 p,
+#subject2 p {
+    margin-bottom: 20px;
 }
 
 /* --------------------------------------------------Testimonials Section */
-#testimonials {
-    background-color: var(--blue);
-    border-radius: 20px;
-    margin-top: 50px;
-}
 
-.card-image {
-    border-radius: 50%;
-    width: 150%;
-    position: relative;
-    bottom: 5px;
-    left: 500px;
+.image {
     margin-top: 20px;
 }
 
-#testimonials .card {
+.testimonial {
     background-color: var(--blue);
     margin-top: 30px;
     border: 0px solid var(--blue);
+    border-radius: 20px;
 }
 
-.card-title {
+.title {
     color: var(--yellow);
     font-size: 30px;
     margin-top: 20px;
 }
 
-.card-text {
+.text {
     font-size: 20px;
     line-height: 1.5;
     margin-top: 20px;
@@ -219,22 +223,22 @@ hr {
     border-radius: 50%;
 }
 
-#testimonials .quote-right {
+.testimonial .quote-right {
     margin-bottom: 30px;
 }
 
 .quote-right,
 .quote-left {
-    color: var(--orange);
+    color: var(--yellow);
 }
 
-#testimonials p {
+.testimonial p {
     color: var(--white);
     font-size: 14px;
     line-height: .5;
 }
 
-#testimonials .card-text {
+.testimonial .text {
     color: var(--purple);
 }
 

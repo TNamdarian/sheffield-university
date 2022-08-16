@@ -40,7 +40,7 @@ body,
 html {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* -------------------------------------------------- Navbar Section */
@@ -308,5 +308,21 @@ ul {
     .big-heading {
         font-size: 38px;
         font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    #center-about {
+        margin-left: 0px;
+    }
+
+    .reasons {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .center-about {
+        margin-left: 60px;
     }
 }

@@ -118,16 +118,6 @@ html {
 }
 
 /* -------------------------------------------------- About Section */
-.reasons {
-    margin-top: 100px;
-    margin-left: 0px;
-}
-
-#center-about {
-    padding: 10px;
-    width: 33%;
-    margin-left: 50px;
-}
 
 #circle-container-about {
     width: 300px;
@@ -215,6 +205,7 @@ hr {
     font-size: 20px;
     line-height: 1.5;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 #circle-container-testimonials {
@@ -223,10 +214,6 @@ hr {
     padding: 20px;
     border: 1px solid var(--yellow);
     border-radius: 50%;
-}
-
-.testimonial .quote-right {
-    margin-bottom: 30px;
 }
 
 .quote-right,
@@ -294,10 +281,6 @@ ul {
 
 /* --------------------------------------------------Media Quaries  */
 @media screen and (max-width: 540px) {
-    .reasons {
-        margin-bottom: 60px;
-        margin-top: 30px;
-    }
 
     .copyright {
         font-size: 60%;
@@ -319,18 +302,12 @@ ul {
     }
 }
 
-@media only screen and (max-width: 1399px) {
+@media only screen and (min-width: 1399px) {
+    .logo {
+        margin-right: 300px;
+    }
+
     #center-about {
-        margin-left: 0px;
-    }
-
-    .reasons {
-        margin-bottom: 20px;
-    }
-}
-
-@media only screen and (max-width: 999px) {
-    .center-about {
-        margin-left: 60px;
+        margin-top: 30px;
     }
 }

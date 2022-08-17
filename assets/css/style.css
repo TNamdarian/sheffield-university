@@ -297,8 +297,8 @@ ul {
 
 @media screen and (max-width: 1024px) {
     .big-heading {
-        font-size: 38px;
-        font-weight: 500;
+        font-size: 30px;
+        font-weight: 400;
     }
 }
 
